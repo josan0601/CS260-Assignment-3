@@ -1,0 +1,22 @@
+{
+  "version": "0.2.1",
+  "defaults": {},
+  "configurations": [
+    {
+      "type": "native",
+      "name": "local",
+      "project": "CMakeLists.txt",
+      "args": [ "--address", "127.0.0.1", "--port", "8001" ],
+      "currentDir": "${workspaceRoot}",
+      "cwd": "${workspaceRoot}"
+    },
+    {
+      "type": "native",
+      "name": "local_quiet",
+      "project": "CMakeLists.txt",
+      "args": [ "--address", "127.0.0.1", "--port", "8001", "--quiet" ],
+      "currentDir": "${workspaceRoot}",
+      "cwd": "${workspaceRoot}"
+    }
+  ]
+}
